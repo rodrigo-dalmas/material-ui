@@ -43,7 +43,11 @@ export { default as Radio, RadioGroup } from './Radio';
 export { default as Select } from './Select';
 export { default as Snackbar, SnackbarContent } from './Snackbar';
 export { MuiThemeProvider, withStyles, withTheme, createMuiTheme } from './styles';
-export { default as Slide, Collapse, Fade, Grow } from './transitions/Slide';
+export { Slide } from './transitions/Slide';
+export { Collapse } from './transitions/Collapse';
+export { Fade } from './transitions/Fade';
+export { Grow } from './transitions/Grow';
+
 // eslint-disable-next-line import/first
 import * as colors from './colors';
 

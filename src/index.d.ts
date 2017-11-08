@@ -92,6 +92,10 @@ export { default as Radio, RadioGroup } from './Radio';
 export { default as Select } from './Select';
 export { default as Snackbar, SnackbarContent } from './Snackbar';
 export { MuiThemeProvider, withStyles, WithStyles, withTheme, createMuiTheme } from './styles';
+export { default as Slide } from './transitions/Slide';
+export { default as Collapse } from './transitions/Collapse';
+export { default as Fade } from './transitions/Fade';
+export { default as Grow } from './transitions/Grow';
 
 import * as colors from './colors';
 
